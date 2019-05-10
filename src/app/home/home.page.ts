@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+ text = 'The world is your oyster.';
+
+  onChangeText() {
+    this.text = "not!";
+  }
 
 }
